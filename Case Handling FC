@@ -31,10 +31,4 @@ First contact details:
 	Case transferred to TSE after timer ran out
 	
 	
-	thingworxMssqlDBSetup.bat -h localhost -i SQLEXPRESS -p 1434 -a sa -r mypasswordiscool123 -l twadmin -d thingworx -u twadmin -s twschema
-	thingworxMssqlSchemaSetup.bat -h localhost -i SQLEXPRESS -p 1434 -l twadmin -r Password!@# -d thingworx -o all
-	
-	keytool -genkeypair -keyalg RSA -alias escur001 -keystore keystore.pfx -ext SAN=dns:escur001 -validity 730 -storetype pkcs12
-
-	
 	
