@@ -1,0 +1,40 @@
+1. Case assessment summary (comment)
+
+Case Assessment Summary:
+
+- Severity level 2 is appropriate
+- 1 search performed
+- No attachments provided
+- Need to understand if the issue is actually related to the unsupported version they are trying to download (thoughts on the situation)
+
+2. Reach out to customer
+3. Clarification
+
+First contact details:
+
+1. How customer was contacted
+	Reached out to customer via email with potential solution (example)
+	Contacted associate over email/slack/teams
+2. Severity level 2 is not appropriate
+3. Case clarity
+	Case not clear, waiting on customer response to email with more details
+4. Next steps
+	Pending response from customer
+	Provided solution, waiting for response
+	Need to schedule meeting
+	Investigate the issue
+	Open a JIRA
+5. Business impact
+	Developers cannot further development
+	Impacting project delivery
+6. (If late) Explain why FC late
+	Case transferred to TSE after timer ran out
+	
+	
+	thingworxMssqlDBSetup.bat -h localhost -i SQLEXPRESS -p 1434 -a sa -r mypasswordiscool123 -l twadmin -d thingworx -u twadmin -s twschema
+	thingworxMssqlSchemaSetup.bat -h localhost -i SQLEXPRESS -p 1434 -l twadmin -r Password!@# -d thingworx -o all
+	
+	keytool -genkeypair -keyalg RSA -alias escur001 -keystore keystore.pfx -ext SAN=dns:escur001 -validity 730 -storetype pkcs12
+
+	
+	
